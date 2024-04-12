@@ -1,8 +1,6 @@
 ﻿using CarCollectionsBL;
 using CarCollectionsDL;
 using System;
-using System.Collections.Generic;
-
 
 public class Program
 {
@@ -21,13 +19,11 @@ public class Program
         {
             Console.WriteLine("Welcome!");
         }
-
         else
         {
             Console.WriteLine("Wrong admin number!!!!");
             return;
         }
-
 
         while (true)
        {
