@@ -21,7 +21,7 @@ public class Program
         }
         else
         {
-            Console.WriteLine("Wrong admin number!!!!");
+            Console.WriteLine("Wrong admin info!!!!");
             return;
         }
 
