@@ -8,6 +8,7 @@ public class carInfo
     public List<Car> carList = new List<Car>();
     public static void DisplayCarInfo(Car car)
     {
+        Console.WriteLine();
         Console.WriteLine("Car Brand: " + car.Brand);
         Console.WriteLine("Car Model: " + car.Model);
         Console.WriteLine("Year Model: " + car.yearModel);

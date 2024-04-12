@@ -44,7 +44,7 @@ public class Collection
         Console.WriteLine("1. Toyota");
         Console.WriteLine("2. Honda");
         Console.WriteLine("3. Hyundai");
-        Console.Write("Please Select a Car to view information: ");
+        Console.Write("\nPlease Select a Car to view information: ");
         string information = Console.ReadLine();
 
         switch (information)
