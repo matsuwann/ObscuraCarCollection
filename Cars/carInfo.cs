@@ -16,9 +16,4 @@ public class carInfo
         Console.WriteLine("Top Speed: " + car.topSpeed);
         Console.WriteLine("Engine: " + car.engine);
     }
-
-    public static void DisplayCarInfo(object value)
-    {
-        throw new NotImplementedException();
-    }
 }
