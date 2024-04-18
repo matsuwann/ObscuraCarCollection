@@ -8,8 +8,8 @@ namespace CarCollectionsModel
         public string Brand;
         public string Model;
         public int yearModel;
-        public string transmission;
-        public string topSpeed;
-        public string engine;
+        public string type;
+        public int RentPrice;
+        public bool availability;
     }
 }

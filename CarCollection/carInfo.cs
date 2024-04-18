@@ -7,12 +7,12 @@ public class carInfo
     public List<Car> carList = new List<Car>();
     public static void DisplayCarInfo(Car car)
     {
-        Console.WriteLine();
+        Console.WriteLine("~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
         Console.WriteLine("Car Brand: " + car.Brand);
         Console.WriteLine("Car Model: " + car.Model);
         Console.WriteLine("Year Model: " + car.yearModel);
-        Console.WriteLine("Transmission: " + car.transmission);
-        Console.WriteLine("Top Speed: " + car.topSpeed);
-        Console.WriteLine("Engine: " + car.engine);
+        Console.WriteLine("Car Type: " + car.type);
+        Console.WriteLine("Rent Price: " + car.RentPrice);
+        Console.WriteLine("Availability: " + car.availability);
     }
 }

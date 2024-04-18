@@ -15,23 +15,25 @@ namespace CarCollectionsDL;
 
         private void CreateAdminData()
         {
-            Admin adminOne = new Admin { adminNumber = "OBRA-0001"};
+            Admin adminOne = new Admin { adminNumber = "OBRA-0001", adminPassword = "OBRA1"};
             adminList.Add(adminOne);
 
-            Admin adminTwo = new Admin { adminNumber = "OBRA-0002" };
+            Admin adminTwo = new Admin { adminNumber = "OBRA-0002", adminPassword = "OBRA2" };
             adminList.Add(adminTwo);
 
-            Admin adminThree = new Admin { adminNumber = "OBRA-0003" };
+            Admin adminThree = new Admin { adminNumber = "OBRA-0003", adminPassword = "OBRA3" };
             adminList.Add(adminThree);
+
+
         }
 
-        public Admin GetAdmin(string adminNumber)
+        public Admin GetAdmin(string adminNumber, string adminPassword)
         {
             Admin foundAdmin = new Admin();
 
             foreach (var admins in adminList)
             {
-                if (adminNumber == admins.adminNumber)
+                if (adminNumber == admins.adminNumber && adminPassword == admins.adminPassword)
                 {
                     foundAdmin = admins;
                 }
